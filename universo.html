@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="universo.css" />
     <title>Universo</title>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="menu__index">Home</a></li>
             <li><a href="casas.html">Casas</a></li>
             <li><a href="universo.html">Universo</a></li>
             <li><a href="index.html"><img src="imagens/LogoHP.png" alt="Logo do Site" style="width: 130px;"></a></li>
@@ -20,9 +21,9 @@
         </ul>
     </nav>
 
-    <section> <!-- Titulo da Página e breve resumo do conteúdo -->
+    <section id="universo__titulo"> <!-- Titulo da Página e breve resumo do conteúdo -->
         <h3>Universo</h3>
-
+        <br><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo porttitor varius. Donec eget venenatis
             sapien. Nullam elementum porttitor risus ultrices dictum. Cras ac finibus nunc. Aenean varius elementum
             justo, sit amet efficitur leo tincidunt at. Praesent cursus ac velit non tempor. Aliquam purus urna,
@@ -38,12 +39,14 @@
         </p>
     </section>
 
-    <main> <!-- coloquei o H3 depois da imagem pois o h3 e o texto irão ficar ao lado da imagem. -->
+    <main id="universo__locais"> <!-- coloquei o H3 depois da imagem pois o h3 e o texto irão ficar ao lado da imagem. -->
+        <h4>Locais Marcantes</h4>
+        <br><br>
         <div class="universo__conteudo">
             <div class="imagem__universo">
                 <img src="imagens/imagens__universo/casa_harry_filme.jpg" alt="Casa da Familia Dursley">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Casa da Familia Dursley</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
@@ -53,15 +56,15 @@
         </div>
 
         <div class="universo__conteudo">
-            <div class="imagem__universo">
-                <img src="imagens/imagens__universo/placa_plataforma_9_3_4.jpg" alt="Plataforma 9 3/4">
-            </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Plataforma 9 3/4</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
+            </div>
+            <div class="imagem__universo">
+                <img src="imagens/imagens__universo/placa_plataforma_9_3_4.jpg" alt="Plataforma 9 3/4">
             </div>
         </div>
 
@@ -69,7 +72,7 @@
             <div class="imagem__universo">
                 <img src="imagens/imagens__universo/hogwarts_express.jpg" alt="Hogwarts Express">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Hogwarts Express</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
@@ -79,15 +82,15 @@
         </div>
 
         <div class="universo__conteudo">
-            <div class="imagem__universo">
-                <img src="imagens/imagens__universo/beco_diagonal_filme.jpg" alt="O Beco Diagonal">
-            </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Beco Diagonal</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
+            </div>
+            <div class="imagem__universo">
+                <img src="imagens/imagens__universo/beco_diagonal_filme.jpg" alt="O Beco Diagonal">
             </div>
         </div>
 
@@ -95,7 +98,7 @@
             <div class="imagem__universo">
                 <img src="imagens/imagens__universo/hogwarts.jpg" alt="Hogwarts">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Hogwarts</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
@@ -105,21 +108,23 @@
         </div>
 
         <div class="universo__conteudo">
-            <div class="imagem__universo">
-                <img src="imagens/imagens__universo/azkaban.jpg" alt="Azkaban">
-            </div>
-            <div universo__descricao_da_imagem>
+            <div class="universo__descricao">
                 <h3>Azkaban</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
             </div>
+            <div class="imagem__universo">
+                <img src="imagens/imagens__universo/azkaban.jpg" alt="Azkaban">
+            </div>
         </div>
 
-        <section> <!-- Parques de diversão e breve resumo do conteúdo -->
-            <h3>Parques de Diversões</h3>
+        <br><br>
 
+        <section id="parque__titulo"> <!-- Parques de diversão e breve resumo do conteúdo -->
+            <h3>Parques de Diversões</h3>
+            <br><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo porttitor varius. Donec eget
                 venenatis
                 sapien. Nullam elementum porttitor risus ultrices dictum. Cras ac finibus nunc. Aenean varius elementum
@@ -142,10 +147,10 @@
         <!-- coloquei o H3 depois da imagem pois o h3 e o texto irão ficar ao lado da imagem./ parques de diversão -->
         <!-- PARQUES DE DIVERSÕES -->
         <div class="parque__conteudo">
-            <div class="imagem__parque_de_diversoes">
+            <div class="imagem__parque">
                 <img src="imagens/imagens__universo/beco_diagonal_orlando1.jpg" alt="Beco Diagonal no Parque da Universal em Orlando">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="parques__descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi elit,
                     porta eget tortor sit amet,
                 </p>
@@ -153,10 +158,10 @@
         </div>
 
         <div class="parque__conteudo">
-            <div class="imagem__parque_de_diversoes">
+            <div class="imagem__parque">
                 <img src="imagens/imagens__universo/hogwarts_express_real.jpg" alt="Hogwarts Express no Parque da Universal em Orlando">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="parques__descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi elit,
                     porta eget tortor sit amet,
                 </p>
@@ -164,10 +169,10 @@
         </div>
 
         <div class="parque__conteudo">
-            <div class="imagem__parque_de_diversoes">
+            <div class="imagem__parque">
                 <img src="imagens/imagens__universo/mundo_harry_potter_orlando.png" alt="Hogwarts no Parque da Universal em Orlandoy">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="parques__descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi elit,
                     porta eget tortor sit amet,
                 </p>
@@ -175,10 +180,10 @@
         </div>
 
         <div class="parque__conteudo">
-            <div class="imagem__parque_de_diversoes">
+            <div class="imagem__parque">
                 <img src="imagens/imagens__universo/montanha_russa.jpg" alt="Montanha Russa no Parque da Universal em Orlando">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="parques__descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi elit,
                     porta eget tortor sit amet,
                 </p>
@@ -186,10 +191,10 @@
         </div>
 
         <div class="parque__conteudo">
-            <div class="imagem__parque_de_diversoes">
+            <div class="imagem__parque">
                 <img src="imagens/imagens__universo/universal.jpg" alt="Hogwarts no Parque da Universal em Orlando">
             </div>
-            <div universo__descricao_da_imagem>
+            <div class="parques__descricao">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi elit,
                     porta eget tortor sit amet,
                 </p>
@@ -197,7 +202,15 @@
         </div>
     </main>
 
-    <footer>Criado por: GABRIEL JUNIOR LUCAS MATHEUS</footer>
+    <footer> 
+        <ul>
+            <li>CRIADO POR:</li>
+            <li>GABRIEL</li>
+            <li>JUNIOR</li>
+            <li>LUCAS</li>
+            <li>MATHEUS</li>
+        </ul>
+    </footer>
 </body>
 
 </html>
