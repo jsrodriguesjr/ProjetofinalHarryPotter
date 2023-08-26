@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-  
+
 body {
     background-color: #6b3fa0;
 }
@@ -37,14 +37,14 @@ nav img {
 }
 
 /* Section - Universo Harry Potter / Titulo e resumo */
-#universo__titulo {
+#personagens__titulo {
     padding: 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
 }
 
-#universo__titulo h3 {
+#personagens__titulo h3 {
     text-align: center;
     font-size: 48px;
     animation-duration: 2s;
@@ -52,7 +52,7 @@ nav img {
     animation-iteration-count: 1;
 }
 
-#universo__titulo p {
+#personagens__titulo p {
     font-size: 20px;
     animation-duration: 2s;
     animation-name: aparecer;
@@ -61,11 +61,12 @@ nav img {
 
 /* Main - Universo Harry Potter / Locais Marcantes */
 
-#universo__locais {
+.personagem__conteudo {
     padding: 50px;
+    display: flex;
 }
 
-#universo__locais h4 {
+.personagem__conteudo h3 {
     text-align: center;
     font-size: 48px;
     animation-duration: 2s;
@@ -73,7 +74,7 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.universo__conteudo {
+.personagem__conteudo {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -82,7 +83,7 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.imagem__universo img {
+.imagem__personagem img {
     height: 375px;
     width: 500px;
     animation-duration: 2s;
@@ -90,7 +91,7 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.universo__descricao h3 {
+.personagens__descricao h3 {
     font-size: 32px;
     padding: 25px;
     text-align: center;
@@ -99,7 +100,7 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.universo__descricao p {
+.personagens__descricao p {
     padding: 50px;
     font-size: 20px;
     animation-duration: 2s;
@@ -114,48 +115,6 @@ nav img {
     100% {
         opacity: 100%;
     }
-}
-
-/* Section - Parques Harry Potter / Titulo e resumo */
-#parque__titulo {
-    padding: 50px;
-}
-
-#parque__titulo h3 {
-    text-align: center;
-    font-size: 48px;
-}
-
-#parque__titulo p {
-    font-size: 20px;
-}
-
-
-/* Main - Universo Harry Potter / Parques de Diversões */
-
-.parque__conteudo { 
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
-}
-
-.imagem__parque { 
-    display:flex;
-    justify-content: center;
-}
-
-.imagem__parque img {
-    height: 400px;
-    width: 550px;
-}
-
-.parques__descricao {
-    text-align: center;
-    padding: 10px;
-}
-
-.parques__descricao p {
-    font-size: 20px;
 }
 
 /* Footer */
