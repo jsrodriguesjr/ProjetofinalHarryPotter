@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: #6b3fa0;
+}
 /* cabeçalho */
 nav ul {
     display: flex;
@@ -31,6 +35,40 @@ nav img {
     border-radius: 50% ;
 }
 
+/* Main - Cronologia Filmes / 2002 */
+main {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.camarasecreta__imagem img {
+    height: 400px;
+    width: auto;
+}
+
+.camarasecreta__imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.camarasecreta__texto {
+    text-align: center;
+    padding: 10px;
+}
+
+.camarasecreta__texto p {
+    font-size: 20px;
+}
+
 /* Footer */
 footer ul {
     display: flex;
@@ -49,11 +87,6 @@ footer li {
     margin-left: 30px;
 }
 
-/* ANIMAÇÃO
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
-    
     @keyframes aparecer {
     0% {
         opacity: 0;
@@ -62,4 +95,3 @@ footer li {
         opacity: 100%;
     }
 }
-*/
