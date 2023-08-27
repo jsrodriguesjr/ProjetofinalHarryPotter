@@ -51,6 +51,76 @@ nav img {
     border-radius: 50% ;
 }
 
+.casas__conteudo__direita {
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.casas__conteudo__direita h3 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.casas__conteudo__direita {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.casas__imagem__direita img {
+    height: 400px;
+    width: 400px;
+}
+
+.casas__descricao__direita h3 {
+    font-size: 32px;
+    padding: 25px;
+    text-align: center;
+}
+
+.casas__descricao__direita p {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.casas__conteudo__esquerda {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    
+}
+
+.casas__conteudo__esquerda h3 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.casas__conteudo__esquerda {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.casas__imagem__esquerda{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+
+.casas__descricao__esquerda h3 {
+    font-size: 32px;
+    padding: 25px;
+    text-align: center;
+}
+
+.casas__descricao__esquerda p {
+    padding: 50px;
+    font-size: 20px;
+}
+
 /* Footer */
 
 footer{

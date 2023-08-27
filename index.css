@@ -51,11 +51,11 @@ nav img {
     border-radius: 50% ;
 }
 
-p{
-    margin-top: 18px;
-    margin-right: 18px;
-    margin-bottom: 18px;
-    margin-left: 18px;
+.index_conteudo {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
 .logo_escrita_harry img{
