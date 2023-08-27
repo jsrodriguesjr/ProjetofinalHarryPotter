@@ -81,6 +81,25 @@ main h1 {
     font-size: 20px;
 }
 
+/* Botôes passado - proximo */
+.botoes ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 60px;
+    width: 128px;
+    background-color: #474747;
+    justify-content: center;
+}
+
+.botoes li {
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
 /* Footer */
 footer ul {
     display: flex;
