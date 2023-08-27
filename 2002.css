@@ -1,11 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 body {
-    background-color: #6b3fa0;
+    background-color: #100129;
 }
+
 /* cabeçalho */
 nav ul {
     display: flex;
@@ -30,7 +32,6 @@ nav a {
 }
 
 nav img {
-    margin-right: 100px;
     border: solid 1px #C4C4C4;
     border-radius: 50% ;
 }
@@ -67,6 +68,41 @@ main h1 {
 
 .camarasecreta__texto p {
     font-size: 20px;
+}
+
+/* Botôes passado - proximo */
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes ul {
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+}
+
+.botoes a {
+        text-decoration: none;
+}
+
+.botoes li {
+    display: flex;
+    background-color: #474747 ;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1 {
+    margin-right: 25px;
+}
+.botao2 {
+    margin-left: 25px;
 }
 
 /* Footer */
