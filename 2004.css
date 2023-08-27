@@ -50,14 +50,14 @@ nav img {
 }
 
 /* Main - Cronologia Filmes / 2001 */
-main {
+#prisioneiro__conteudo{
     padding: 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
 }
 
-main h1 {
+#prisioneiro__conteudo h1 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 50px;
@@ -93,7 +93,6 @@ main h1 {
 .botoes ul {
     display: flex;
     flex-direction: row;
-
     height: 60px;
 }
 

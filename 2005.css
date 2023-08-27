@@ -92,7 +92,6 @@ nav img {
 .botoes ul {
     display: flex;
     flex-direction: row;
-
     height: 60px;
 }
 

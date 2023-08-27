@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     color: white;
-<<<<<<< HEAD
-=======
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -12,15 +10,11 @@
 
 h1 {
     font-family: 'Sofia', cursive;
->>>>>>> 12f41ef990fccca19250e79352169dbe59e01522
 }
 
 body {
     background-color: #100129;
-<<<<<<< HEAD
-=======
 
->>>>>>> 12f41ef990fccca19250e79352169dbe59e01522
 }
 
 /* cabeçalho */
@@ -57,14 +51,14 @@ nav img {
 }
 
 /* Main - Cronologia Filmes / 2002 */
-main {
+#camarasecreta__conteudo {
     padding: 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
 }
 
-main h1 {
+#camarasecreta__conteudo h1 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 50px;
