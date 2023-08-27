@@ -1,8 +1,28 @@
 * {
     padding: 0;
     margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia', cursive;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+
 }
+
+h1 {
+    font-family: 'Sofia', cursive;
+}
+
+body {
+    background-color: #100129;
+
+}
+
 /* cabeçalho */
+
+nav{
+    margin-bottom: 100px;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -31,7 +51,42 @@ nav img {
     border-radius: 50% ;
 }
 
+p{
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    margin-left: 18px;
+}
+
+.logo_escrita_harry img{
+    width: 888px;
+    height: 329px;
+    margin: 18px;
+}
+
+.logo_escrita_harry{
+    display: flex;
+    justify-content: center;
+}
+
+.brasao_de_hogwarts img{
+    width: 500px;
+    height: auto;
+    margin: 18px;
+}
+
+.brasao_de_hogwarts{
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
+
+footer{
+
+    margin-top: 100px;
+}
+
 footer ul {
     display: flex;
     flex-direction: row;
