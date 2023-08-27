@@ -12,6 +12,10 @@ h1 {
     font-family: 'Sofia', cursive;
 }
 
+p {
+    font-size: 20px;
+}
+
 body {
     background-color: #100129;
 
@@ -50,7 +54,27 @@ nav img {
     border-radius: 50% ;
 }
 
-.casas__conteudo__direita {
+.casas_chapeuSeletor{
+    text-align: center;
+}
+
+.casas_chapeuSeletor h1 {
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.casas_chapeuSeletor h2{
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    padding: 10px; 
+}
+
+.casas_chapeuSeletor p{
+    padding: 10px;
+}
+
+.casas__bloco__externo{
     padding: 50px;
     display: flex;
     animation-duration: 2s;
@@ -58,67 +82,31 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.casas__conteudo__direita h3 {
-    text-align: center;
-    font-size: 48px;
+.casas__bloco__interno{
+    display: block;
 }
 
-.casas__conteudo__direita {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
+.casas__conteudo__interno {
+   text-align: center;
 }
 
-.casas__imagem__direita img {
-    height: 400px;
-    width: 400px;
-}
+.casas__conteudo__interno img{
+    width: auto;
+    height: 440px;
+    padding: 10px;
+ }
 
-.casas__descricao__direita h3 {
-    font-size: 32px;
-    padding: 25px;
-    text-align: center;
-}
+.casas__conteudo__interno h2{
+   padding: 10px;
+   font-size: 30px;
+ }
 
-.casas__descricao__direita p {
-    padding: 50px;
-    font-size: 20px;
-}
-
-.casas__conteudo__esquerda {
-    padding: 50px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
-    
-}
-
-.casas__conteudo__esquerda h3 {
-    text-align: center;
-    font-size: 48px;
-}
-
-.casas__conteudo__esquerda {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.casas__imagem__esquerda{
-    height: 400px;
-    width: 400px;
-    align-items: center;
-}
-
-.casas__descricao__esquerda h3 {
-    font-size: 32px;
-    padding: 25px;
-    text-align: center;
-}
-
-.casas__descricao__esquerda p {
-    padding: 50px;
-    font-size: 20px;
-}
+.casas__conteudo__interno p{
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+ }
 
 /* Footer */
 
