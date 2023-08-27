@@ -63,48 +63,37 @@ nav img {
 
 #universo__locais {
     padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
 #universo__locais h4 {
     text-align: center;
     font-size: 48px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
+
 }
 
 .universo__conteudo {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .imagem__universo img {
     height: 375px;
     width: 500px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .universo__descricao h3 {
     font-size: 32px;
     padding: 25px;
     text-align: center;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .universo__descricao p {
     padding: 50px;
     font-size: 20px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 @keyframes aparecer {

@@ -47,16 +47,10 @@ nav img {
 #personagens__titulo h3 {
     text-align: center;
     font-size: 48px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 #personagens__titulo p {
     font-size: 20px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 /* Main - Universo Harry Potter / Locais Marcantes */
@@ -64,48 +58,36 @@ nav img {
 .personagem__conteudo {
     padding: 50px;
     display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
 .personagem__conteudo h3 {
     text-align: center;
     font-size: 48px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .personagem__conteudo {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .imagem__personagem img {
     height: 375px;
     width: 500px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .personagens__descricao h3 {
     font-size: 32px;
     padding: 25px;
     text-align: center;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .personagens__descricao p {
     padding: 50px;
     font-size: 20px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 @keyframes aparecer {
