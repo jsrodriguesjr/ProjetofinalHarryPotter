@@ -17,6 +17,11 @@ body {
 
 }
 /* cabeçalho */
+
+nav{
+    margin-bottom: 100px;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -80,6 +85,13 @@ main h1 {
 }
 
 /* Footer */
+
+footer{
+
+    margin-top: 100px;
+}
+
+
 footer ul {
     display: flex;
     flex-direction: row;
