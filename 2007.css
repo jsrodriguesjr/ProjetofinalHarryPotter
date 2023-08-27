@@ -2,19 +2,17 @@
     padding: 0;
     margin: 0;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sofia', cursive;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-
-}
-
-h1 {
-    font-family: 'Sofia', cursive;
 }
 
 body {
     background-color: #100129;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia', cursive;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
 
+h1 {
+    font-family: 'Sofia', cursive;
 }
 
 /* cabeçalho */
@@ -46,9 +44,77 @@ nav a {
 }
 
 nav img {
-    margin-right: 100px;
     border: solid 1px #C4C4C4;
     border-radius: 50% ;
+}
+
+/* Main - Cronologia Filmes / 2001 */
+#ordem__conteudo {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+#ordem__conteudo h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.ordem__imagem img {
+    height: 400px;
+    width: auto;
+}
+
+.ordem__imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ordem__texto {
+    text-align: center;
+    padding: 10px;
+}
+
+.ordem__texto p {
+    font-size: 20px;
+}
+
+/* Botôes passado - proximo */
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes ul {
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+}
+
+.botoes a {
+        text-decoration: none;
+}
+
+.botoes li {
+    display: flex;
+    background-color: #474747 ;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1 {
+    margin-right: 25px;
+}
+.botao2 {
+    margin-left: 25px;
 }
 
 /* Footer */
@@ -75,12 +141,7 @@ footer li {
     flex: 1;
     margin-left: 30px;
 }
-
-/* ANIMAÇÃO
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
-    
+  
     @keyframes aparecer {
     0% {
         opacity: 0;
@@ -89,4 +150,3 @@ footer li {
         opacity: 100%;
     }
 }
-*/

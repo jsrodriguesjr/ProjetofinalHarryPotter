@@ -46,7 +46,6 @@ nav a {
 }
 
 nav img {
-    margin-right: 100px;
     border: solid 1px #C4C4C4;
     border-radius: 50% ;
 }
@@ -56,6 +55,11 @@ nav img {
 footer{
 
     margin-top: 100px;
+}
+
+.ordem__filme{
+    width: 40%;
+    margin: 0 auto;
 }
 
 
@@ -76,10 +80,67 @@ footer li {
     margin-left: 30px;
 }
 
-/* ANIMAÇÃO
+body {
+    background-color: #100129;
+}
+
+.cronologia{
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.logo__harry{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+
+.cronologia__imagem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cronologia__imagem2{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.cronologia__imagem3{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+div {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1; 
+}
+
+div.ull {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+  div.ull p {
+    margin: 0 }
+    
+
+
+b {
+    width: 10%;
+    margin: 0 auto;
+}
     
     @keyframes aparecer {
     0% {
@@ -89,4 +150,28 @@ footer li {
         opacity: 100%;
     }
 }
-*/
+
+.texto__cronologia2{
+    text-align: center;
+    padding: 10px;
+    color: #C4C4C4;
+
+}
+
+#cro {
+    width: 10%;
+    margin: 0 auto;
+  }
+
+  IMG.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+    div.texto_p {
+        height: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+      div.texto_p p {
+        margin: 0 }
