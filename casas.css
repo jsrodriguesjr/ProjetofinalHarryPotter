@@ -54,6 +54,12 @@ nav img {
     border-radius: 50% ;
 }
 
+#conteudo__casas {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
 .casas_chapeuSeletor{
     text-align: center;
 }
@@ -133,12 +139,7 @@ footer li {
     margin-left: 30px;
 }
 
-/* ANIMAÇÃO
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
-    
-    @keyframes aparecer {
+@keyframes aparecer {
     0% {
         opacity: 0;
     }
@@ -146,4 +147,3 @@ footer li {
         opacity: 100%;
     }
 }
-*/

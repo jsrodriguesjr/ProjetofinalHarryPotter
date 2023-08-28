@@ -2,26 +2,18 @@
     padding: 0;
     margin: 0;
     color: white;
-<<<<<<< HEAD
 }
 
 body {
     background-color: #100129;
-=======
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
 
 }
 
-h1 {
+h3, h4 {
     font-family: 'Sofia', cursive;
-}
-
-body {
-    background-color: #100129;
-
->>>>>>> 12f41ef990fccca19250e79352169dbe59e01522
 }
 
 /* cabeçalho */
@@ -156,7 +148,7 @@ nav img {
 
 .imagem__parque img {
     height: 400px;
-    width: 550px;
+    width: auto;
 }
 
 .parques__descricao {

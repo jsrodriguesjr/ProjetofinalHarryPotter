@@ -127,7 +127,10 @@ div.ull {
     justify-content: center }
   div.ull p {
     margin: 0 }
-    
+
+.ull li {
+    font-size: 20px;
+}
 
 
 b {
@@ -150,6 +153,15 @@ b {
 
 }
 
+.texto__cronologia h3 {
+    font-size: 20px;
+}
+
+
+.texto__cronologia2 h3 {
+    font-size: 20px;
+}
+
 .texto__cronologia2{
     text-align: center;
     padding: 50px;
@@ -158,8 +170,13 @@ b {
 }
 
 #cro {
-    width: 10%;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  #cro h1 {
+    font-size: 48px;
+    text-align: center;
   }
 
   IMG.img3 {
@@ -174,3 +191,46 @@ b {
         justify-content: center }
       div.texto_p p {
         margin: 0 }
+
+.texto_p {
+    font-size: 20px;
+}
+
+.ordem__filme {
+    width: 100%;  
+    text-align: center;
+}
+
+.ordem__filme b{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+}
+
+/* Botoes anos */
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes ul {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.botoes a {
+        text-decoration: none;
+}
+
+.botoes li {
+    display: flex;
+    background-color: #474747 ;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}

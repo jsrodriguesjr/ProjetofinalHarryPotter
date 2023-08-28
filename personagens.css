@@ -8,7 +8,7 @@
 
 }
 
-h1 {
+h3, h4 {
     font-family: 'Sofia', cursive;
 }
 
@@ -90,7 +90,7 @@ nav img {
 
 .imagem__personagem img {
     height: 375px;
-    width: 500px;
+    width: auto;
 }
 
 .personagens__descricao h3 {
