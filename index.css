@@ -12,6 +12,14 @@ h1 {
     font-family: 'Sofia', cursive;
 }
 
+p {
+    font-size: 20px;
+}
+
+section{
+    padding: 10px;
+}
+
 body {
     background-color: #100129;
 
@@ -50,20 +58,20 @@ nav img {
     border-radius: 50% ;
 }
 
-p{
-    margin-top: 18px;
-    margin-right: 18px;
-    margin-bottom: 18px;
-    margin-left: 18px;
+.index__conteudo {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
-.logo_escrita_harry img{
+.logo__escrita_harry img{
     width: 888px;
     height: 329px;
     margin: 18px;
 }
 
-.logo_escrita_harry{
+.logo__escrita_harry{
     display: flex;
     justify-content: center;
 }

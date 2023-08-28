@@ -12,6 +12,10 @@ h1 {
     font-family: 'Sofia', cursive;
 }
 
+p {
+    font-size: 20px;
+}
+
 body {
     background-color: #100129;
 
@@ -49,6 +53,60 @@ nav img {
     border: solid 1px #C4C4C4;
     border-radius: 50% ;
 }
+
+.casas_chapeuSeletor{
+    text-align: center;
+}
+
+.casas_chapeuSeletor h1 {
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.casas_chapeuSeletor h2{
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    padding: 10px; 
+}
+
+.casas_chapeuSeletor p{
+    padding: 10px;
+}
+
+.casas__bloco__externo{
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.casas__bloco__interno{
+    display: block;
+}
+
+.casas__conteudo__interno {
+   text-align: center;
+}
+
+.casas__conteudo__interno img{
+    width: auto;
+    height: 440px;
+    padding: 10px;
+ }
+
+.casas__conteudo__interno h2{
+   padding: 10px;
+   font-size: 30px;
+ }
+
+.casas__conteudo__interno p{
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+ }
 
 /* Footer */
 
