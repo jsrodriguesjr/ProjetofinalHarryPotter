@@ -220,10 +220,6 @@ b {
     height: 60px;
 }
 
-.botoes a {
-        text-decoration: none;
-}
-
 .botoes li {
     display: flex;
     background-color: #474747 ;
@@ -234,3 +230,8 @@ b {
     align-items: center;
     margin-right: 50px;
 }
+
+.botoes a {
+        text-decoration: none;
+}
+
