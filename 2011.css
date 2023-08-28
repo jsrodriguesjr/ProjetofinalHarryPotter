@@ -27,7 +27,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width:100%;
+    width: 100%;
     height: 60px;
     background-color: #474747;
     margin-bottom: 100px;
@@ -46,8 +46,79 @@ nav a {
 }
 
 nav img {
+    display: flex;
     border: solid 1px #C4C4C4;
-    border-radius: 50% ;
+    border-radius: 50%;
+}
+
+
+/* Main - Cronologia Filmes / 2001 */
+#reliquias_pt2__conteudo {
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+#reliquias_pt2__conteudo h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.reliquias_pt2__imagem img {
+    height: 400px;
+    width: auto;
+}
+
+.reliquias_pt2__imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reliquias_pt2__texto {
+    text-align: center;
+    padding: 10px;
+}
+
+.reliquias_pt2__texto p {
+    font-size: 20px;
+}
+
+/* Botôes passado - proximo */
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes ul {
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+}
+
+.botoes a {
+        text-decoration: none;
+}
+
+.botoes li {
+    display: flex;
+    background-color: #474747 ;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1 {
+    margin-right: 25px;
+}
+.botao2 {
+    margin-left: 25px;
 }
 
 /* Footer */
@@ -57,12 +128,10 @@ footer{
     margin-top: 100px;
 }
 
-
 footer ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
-    width:100%;
+    width: 100%;
     height: 60px;
     background-color: #474747;
 }
@@ -73,19 +142,16 @@ footer li {
     margin-top: 20px;
     flex: 1;
     margin-left: 30px;
+
 }
 
-/* ANIMAÇÃO
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
-    
-    @keyframes aparecer {
+/* Animação */
+@keyframes aparecer {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 100%;
     }
 }
-*/

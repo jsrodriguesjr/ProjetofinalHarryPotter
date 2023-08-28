@@ -91,13 +91,6 @@ body {
     animation-iteration-count: 1;
 }
 
-.logo__harry{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-  
-
 .cronologia__imagem{
     display: flex;
     justify-content: center;
@@ -151,9 +144,15 @@ b {
     }
 }
 
+.texto__cronologia{
+    text-align: center;
+    padding: 50px;
+
+}
+
 .texto__cronologia2{
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     color: #C4C4C4;
 
 }
