@@ -64,9 +64,6 @@ nav img {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
 }
 
 .logo__escrita_harry img{
@@ -115,7 +112,7 @@ footer li {
     margin-left: 30px;
 }
 
-    @keyframes aparecer {
+@keyframes aparecer {
     0% {
         opacity: 0;
     }
