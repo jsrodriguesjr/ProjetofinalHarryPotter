@@ -10,6 +10,9 @@
 
 h1 {
     font-family: 'Sofia', cursive;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
 }
 
 body {
@@ -75,10 +78,150 @@ footer li {
     margin-left: 30px;
 }
 
-/* ANIMAÇÃO
+.titulo__principal{
+    text-align: center;
+    font-size: 70px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1; 
+}
+
+.subtexto__principal{
+    font-size: 25px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+p{
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+.imagem__personagem{
+    height: 375px;
+    width: auto;
+    border-radius: 30px;
+    border: 1px solid white;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.animal__amasso{
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+.texto__amasso{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.animal__barriga{
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+.texto__barriga{
+    order: -1;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.animal__hipogrifo{
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.texto__hipogrifo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.animal__basilisco{
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.texto__basilisco{
+    order: -1;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.animal__cerberus{
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.texto__cerberus{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+    
+}
+
+.animal__centauro{
+    display: flex;
+    padding: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+.texto__centauro{
+    order: -1;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
     
     @keyframes aparecer {
     0% {
@@ -88,4 +231,3 @@ footer li {
         opacity: 100%;
     }
 }
-*/
