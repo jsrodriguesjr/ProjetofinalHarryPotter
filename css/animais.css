@@ -15,6 +15,10 @@ h1 {
     animation-iteration-count: 1; 
 }
 
+h2, h3, h4 {
+    font-family: 'Sofia', cursive;
+}
+
 body {
     background-color: #100129;
 
@@ -93,7 +97,7 @@ footer li {
     animation-name: aparecer;
     animation-iteration-count: 1; 
 }
-h3{
+h2, h3{
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
