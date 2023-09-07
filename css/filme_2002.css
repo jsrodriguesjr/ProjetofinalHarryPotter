@@ -17,10 +17,22 @@ body {
 
 }
 
+#grade {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto 60px;
+    grid-template-areas: 
+    "header"
+    "conteudo"
+    "footer";
+    grid-gap: 20px;
+}
+
 /* cabeçalho */
 
 nav{
     margin-bottom: 100px;
+    grid-area: header;
 }
 
 nav ul {
@@ -52,10 +64,11 @@ nav img {
 
 /* Main - Cronologia Filmes / 2002 */
 #camarasecreta__conteudo {
-    padding: 50px;
+    padding: 110px 50px 0px 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
+    grid-area: conteudo;
 }
 
 #camarasecreta__conteudo h1 {
@@ -122,8 +135,8 @@ nav img {
 /* Footer */
 
 footer{
-
     margin-top: 100px;
+    grid-area: footer;
 }
 
 
