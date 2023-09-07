@@ -24,7 +24,7 @@ body {
 #grade {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
     /* 5 linhas 2 colunas */
     "nav nav"
