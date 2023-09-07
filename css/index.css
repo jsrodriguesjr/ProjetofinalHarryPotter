@@ -29,6 +29,7 @@ body {
 
 nav{
     margin-bottom: 100px;
+    grid-area: nav;
 }
 
 nav ul {
@@ -58,7 +59,19 @@ nav img {
     border-radius: 50% ;
 }
 
-.index__conteudo {
+
+.index__conteudo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "logo__escrita_harry logo__escrita_harry logo__escrita_harry"
+    "conteudoprincipal__index conteudoprincipal__index conteudoprincipal__index"
+    "brasao_de_hogwarts brasao_de_hogwarts brasao_de_hogwarts"
+    "conteudosecundario__index conteudosecundario__index conteudosecundario__index"
+    "footer footer footer"
+    ;
     padding: 50px;
     padding-top: 0px;
     animation-duration: 2s;
@@ -66,32 +79,42 @@ nav img {
     animation-iteration-count: 1;
 }
 
+
 .logo__escrita_harry img{
-    width: 888px;
-    height: 329px;
+    width: 1000px;
+    height: auto;
     margin: 18px;
-}
+} 
 
 .logo__escrita_harry{
     display: flex;
     justify-content: center;
+    grid-area: logo__escrita_harry;
+} 
+.conteudoprincipal__index{
+    grid-area: conteudoprincipal__index;
+    text-align: center;
 }
-
-.brasao_de_hogwarts img{
+ .brasao_de_hogwarts img{
     width: 500px;
     height: auto;
     margin: 18px;
-}
+} 
 
 .brasao_de_hogwarts{
     display: flex;
     justify-content: center;
-}
+    grid-area: brasao_de_hogwarts;
+} 
 
+.conteudosecundario__index{
+    grid-area: conteudosecundario__index;
+    text-align: center;
+}
 /* Footer */
 
 footer{
-
+    grid-area: footer;
     margin-top: 100px;
 }
 
