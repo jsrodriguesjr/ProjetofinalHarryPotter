@@ -11,6 +11,17 @@ body {
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
+#grade {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto 60px;
+    grid-template-areas: 
+    "header"
+    "conteudo"
+    "footer";
+    grid-gap: 20px;
+}
+
 h1 {
     font-family: 'Sofia', cursive;
 }
@@ -50,10 +61,11 @@ nav img {
 
 /* Main - Cronologia Filmes / 2001 */
 #calice__conteudo {
-    padding: 50px;
+    padding: 110px 50px 0px 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
+    grid-area: conteudo;
 }
 
 #calice__conteudo h1 {
@@ -120,8 +132,8 @@ nav img {
 /* Footer */
 
 footer{
-
     margin-top: 100px;
+    grid-area: footer;
 }
 
 
