@@ -21,9 +21,23 @@ body {
 
 }
 
+#grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    /* 5 linhas 2 colunas */
+    "nav nav"
+    "a_origem a_origem"
+    "grifinoria sonserina"
+    "corvinal lufalufa"
+    "footer footer";
+}
+    
 /* cabeçalho */
 
 nav{
+    grid-area: nav;
     margin-bottom: 100px;
 }
 
@@ -80,7 +94,8 @@ nav img {
     padding: 10px;
 }
 
-.casas__bloco__externo{
+.casas__bloco__externo1{
+    grid-area: a_origem;
     padding: 50px;
     display: flex;
     animation-duration: 2s;
@@ -88,36 +103,48 @@ nav img {
     animation-iteration-count: 1;
 }
 
-.casas__bloco__interno{
-    display: block;
+.casas__bloco__externo2{
+    grid-area: casas__bloco__externo2;
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
-.casas__conteudo__interno {
-   text-align: center;
+.casas__bloco__externo3{
+    grid-area: casas__bloco__externo3;
+    padding: 50px;
+    display: flex;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
 }
 
-.casas__conteudo__interno img{
-    width: auto;
-    height: 440px;
-    padding: 10px;
- }
+.casas__bloco__interno__grifinoria{
+    text-align: center;
+    grid-area: grifinoria;
+}
 
-.casas__conteudo__interno h2{
-   padding: 10px;
-   font-size: 30px;
- }
+.casas__bloco__interno__sonserina{
+    text-align: center;
+    grid-area: sonserina;
+}
 
-.casas__conteudo__interno p{
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px;
- }
+.casas__bloco__interno__corvinal{
+    text-align: center;
+    grid-area: corvinal;
+}
+
+.casas__bloco__interno__lufalufa{
+    text-align: center;
+    grid-area: lufalufa;
+}
 
 /* Footer */
 
 footer{
-
+    grid-area: footer;
     margin-top: 100px;
 }
 
