@@ -57,6 +57,7 @@ nav a {
 nav img {
     border: solid 1px #C4C4C4;
     border-radius: 50% ;
+    width: 80px;
 }
 
 
@@ -125,6 +126,7 @@ footer{
     font-size: 10px;
     text-align: center;
     font-weight: 100;
+    text-transform: uppercase
 }
 @keyframes aparecer {
     0% {
