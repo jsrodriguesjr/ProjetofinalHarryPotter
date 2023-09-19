@@ -50,7 +50,7 @@ nav li {
     margin-left: 30px;
 }
 
-nav a {
+.links a {
     text-decoration: none;
     color: #C4C4C4;
 }
@@ -99,40 +99,23 @@ main h1 {
 }
 
 /* Botôes passado - proximo */
-.botoes{
+.botoes {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.botoes ul {
-    display: flex;
     flex-direction: row;
-
-    height: 60px;
 }
 
 .botoes a {
-        text-decoration: none;
+    background-color: #100129;
+    color: white;
+    text-transform: uppercase;
 }
 
-.botoes li {
-    display: flex;
-    background-color: #474747 ;
-    width: 80px;
-    height: 50px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+.botoes a:hover {
+    background-color: #100129;
+    color: white;
 }
-
-.botao1 {
-    margin-right: 25px;
-}
-.botao2 {
-    margin-left: 25px;
-}
-
 /* Footer */
 
 footer{
