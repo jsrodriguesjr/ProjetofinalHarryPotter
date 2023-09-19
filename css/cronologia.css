@@ -209,7 +209,7 @@ b {
 }
 
 .botoes button:hover {
-    color: brown;
+    color: brown;  
     background-color: black;
 }
 
