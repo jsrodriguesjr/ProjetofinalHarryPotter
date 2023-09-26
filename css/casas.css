@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 body {
@@ -21,13 +21,16 @@ body {
 
 }
 
+img{
+    border-radius: 30px;
+}
+
 #grade {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 5fr;
     grid-template-areas: 
     /* 5 linhas 2 colunas */
-    "nav nav"
     "a_origem a_origem"
     "grifinoria sonserina"
     "corvinal lufalufa"
@@ -37,7 +40,6 @@ body {
 /* cabeçalho */
 
 nav{
-    grid-area: nav;
     margin-bottom: 100px;
 }
 
