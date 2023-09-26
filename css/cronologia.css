@@ -84,6 +84,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 .cronologia__imagem2{
 display: flex;
 justify-content: center;
@@ -195,33 +196,22 @@ b {
 }
 
 /* Botoes anos */
-.botoes{
+.botoes {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.botoes ul {
-    display: flex;
     flex-direction: row;
-    height: 60px;
-    
 }
 
-.botoes li {
-    list-style: none;
-    display: flex;
-    background-color: #474747 ;
-    width: 80px;
-    height: 50px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
+.botoes button {
+    background-color: brown;
+    color: black;
+    text-transform: uppercase;
 }
 
-.botoes a {
-    text-decoration: none;
+.botoes button:hover {
+    color: brown;  
+    background-color: black;
 }
 
 footer{

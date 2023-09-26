@@ -11,27 +11,15 @@ h1 {
     font-family: 'Sofia', cursive;
 }
 
-body {
-    background-color: #100129;
-}
-
 #grade {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px auto 60px;
+    grid-template-rows:auto;
     grid-template-areas: 
-    "header"
-    "conteudo"
-    "footer";
-    grid-gap: 20px;
+    "conteudo";
 }
 
 /* cabeçalho */
-
-nav{
-    margin-bottom: 100px;
-    grid-area: header;
-}
 
 nav ul {
     display: flex;
@@ -62,10 +50,17 @@ nav img {
     width: 80px;
 }
 
+.bg__bege{
+    background-color: bisque;
+}
+.bg__vermelho{
+    background-color: brown;
+    padding: 20px;
+}
 
 /* Main - Cronologia Filmes / 2001 */
 main {
-    padding: 110px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
@@ -114,21 +109,21 @@ main h1 {
     flex-direction: row;
 }
 
-.botoes a {
-    background-color: #100129;
-    color: white;
+.botoes a,
+.botoes span {
+    background-color: brown;
+    color: black;
     text-transform: uppercase;
 }
 
 .botoes a:hover {
-    background-color: #100129;
-    color: white;
+    background-color: brown;
+    color: black;
 }
 /* Footer */
 
 footer{
-    grid-area: footer;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 10px;
 }
 .texto__footer{

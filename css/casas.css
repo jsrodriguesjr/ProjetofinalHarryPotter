@@ -85,51 +85,25 @@ nav img {
     animation-iteration-count: 1; 
 }
 
-.casas_chapeuSeletor{
+.casas_a_origem{
     text-align: center;
+    grid-area: a_origem;
 }
 
-.casas_chapeuSeletor h1 {
+.casas_a_origem h1 {
     font-family: 'Sofia', cursive;
     font-size: 40px;
     padding: 10px;
 }
 
-.casas_chapeuSeletor h2{
+.casas_a_origem h2{
     font-family: 'Sofia', cursive;
     font-size: 30px;
     padding: 10px; 
 }
 
-.casas_chapeuSeletor p{
+.casas_a_origem p{
     padding: 10px;
-}
-
-.casas__bloco__externo1{
-    grid-area: a_origem;
-    padding: 50px;
-    display: flex;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
-}
-
-.casas__bloco__externo2{
-    grid-area: casas__bloco__externo2;
-    padding: 50px;
-    display: flex;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
-}
-
-.casas__bloco__externo3{
-    grid-area: casas__bloco__externo3;
-    padding: 50px;
-    display: flex;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
 }
 
 .casas__bloco__interno__grifinoria{
