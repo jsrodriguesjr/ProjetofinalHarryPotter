@@ -23,22 +23,22 @@ body {
 
 #grade {
     display: grid;
+    grid-area: casas;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    /* 5 linhas 2 colunas */
+    /* 2 linhas 2 colunas */
     "nav nav"
-    "a_origem a_origem"
+    "origem origem"
     "grifinoria sonserina"
     "corvinal lufalufa"
-    "footer footer";
-}
-    
+    "footer footer"
+} 
+
 /* cabeçalho */
 
 nav{
     grid-area: nav;
-    margin-bottom: 100px;
 }
 
 nav ul {
@@ -85,7 +85,7 @@ nav img {
 
 .casas_a_origem{
     text-align: center;
-    grid-area: a_origem;
+    grid-area: origem;
 }
 
 .casas_a_origem h1 {
@@ -104,24 +104,33 @@ nav img {
     padding: 10px;
 }
 
-.casas_blocointerno_grifinoria{
+.casas__bloco__interno__grifinoria{
     text-align: center;
     grid-area: grifinoria;
+    padding: 10px;
 }
 
-.casas_blocointerno_sonserina{
+.casas__bloco__interno__sonserina{
     text-align: center;
     grid-area: sonserina;
+    padding: 10px;
 }
 
-.casas_blocointerno_corvinal{
+.casas__bloco__interno__corvinal{
     text-align: center;
     grid-area: corvinal;
+    padding: 10px;
 }
 
-.casas_blocointerno_lufalufa{
+.casas__bloco__interno__lufalufa{
     text-align: center;
     grid-area: lufalufa;
+    padding: 10px;
+}
+
+.casas__imagem{
+    height: 436px;
+    width: 470px;
 }
 
 /* Footer */
