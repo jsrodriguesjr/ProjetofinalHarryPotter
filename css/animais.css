@@ -15,15 +15,13 @@ h1 {
     animation-iteration-count: 1;
 }
 
-h2,
-h3,
-h4 {
+h2,h3,h4 {
     font-family: 'Sofia', cursive;
 }
 
 body {
-    background-color: #100129;
-
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
 /* cabeçalho */
@@ -66,12 +64,6 @@ footer {
     margin-top: 100px;
     padding: 10px;
 }
-
-.bg__bege {
-    background: rgb(20, 8, 62);
-    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
-}
-
 
 
 .texto__footer {

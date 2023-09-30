@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
+    color: #dddd;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -27,7 +27,6 @@ nav ul {
     list-style: none;
     width: 100%;
     height: 60px;
-    background-color: #474747;
     margin-bottom: 100px;
 }
 
@@ -50,13 +49,6 @@ nav img {
     width: 80px;
 }
 
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
-}
 
 /* Main - Cronologia Filmes / 2001 */
 main {
@@ -73,12 +65,9 @@ main h1 {
     margin-bottom: 50px;
 }
 
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
+body {
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
 .pedrafilosofal__imagem img {
