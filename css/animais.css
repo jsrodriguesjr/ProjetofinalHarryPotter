@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
+    color: #dddd;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -12,10 +12,12 @@ h1 {
     font-family: 'Sofia', cursive;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Sofia', cursive;
 }
 
@@ -26,7 +28,7 @@ body {
 
 /* cabeçalho */
 
-nav{
+nav {
     margin-bottom: 100px;
 }
 
@@ -34,9 +36,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width:100%;
+    width: 100%;
     height: 60px;
-    background-color: #474747;
     margin-bottom: 100px;
 }
 
@@ -54,27 +55,26 @@ nav a {
 
 nav img {
     border: solid 1px #C4C4C4;
-    border-radius: 50% ;
+    border-radius: 50%;
     width: 80px;
 }
 
 /* Footer */
 
-footer{
+footer {
     grid-area: footer;
     margin-top: 100px;
     padding: 10px;
 }
 
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
+.bg__bege {
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
-.texto__footer{
+
+
+.texto__footer {
     color: grey;
     font-size: 10px;
     text-align: center;
@@ -82,155 +82,164 @@ footer{
     text-transform: uppercase
 }
 
-.titulo__principal{
+.titulo__principal {
     text-align: center;
     font-size: 70px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-.subtexto__principal{
+.subtexto__principal {
     font-size: 25px;
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-h2, h3{
+
+h2,
+h3 {
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 40px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-p{
-    text-align: center;
+
+p {
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-.imagem__personagem{
+
+.imagem__personagem {
     height: 375px;
     width: auto;
     border-radius: 30px;
     border: 1px solid white;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-.animal__amasso{
+.animal__amasso {
     padding: 50px;
     display: flex;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-.texto__amasso{
-    text-align: center;
-    font-size: 25px;
+
+.texto__amasso {
+    font-size: 20px;
     margin-top: 100px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    padding-left: 50px;
 }
 
-.animal__barriga{
+.animal__barriga {
     padding: 50px;
     display: flex;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-.texto__barriga{
+
+.texto__barriga {
     order: -1;
-    text-align: center;
-    font-size: 25px;
+    text-align: right;
+    font-size: 20px;
     margin-top: 100px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    padding: 50px;
 }
 
-.animal__hipogrifo{
+.animal__hipogrifo {
     padding: 50px;
     display: flex;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-.texto__hipogrifo{
-    text-align: center;
-    font-size: 25px;
+.texto__hipogrifo {
+    font-size: 20px;
     margin-top: 100px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    padding: 50px;
 }
 
-.animal__basilisco{
+.animal__basilisco {
     padding: 50px;
     display: flex;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-.texto__basilisco{
+.texto__basilisco {
     order: -1;
-    text-align: center;
-    font-size: 25px;
+    text-align: right;
+    font-size: 20px;
     margin-top: 100px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    padding: 50px;
 }
 
-.animal__cerberus{
+.animal__cerberus {
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
 
-.texto__cerberus{
-    text-align: center;
-    font-size: 25px;
+.texto__cerberus {
+    font-size: 20px;
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
-    
+    animation-iteration-count: 1;
+
 }
 
-.animal__centauro{
+.animal__centauro {
     display: flex;
     padding: 50px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
 }
-.texto__centauro{
+
+.texto__centauro {
     order: -1;
-    text-align: center;
+    text-align: right;
     font-size: 25px;
     margin-top: 100px;
     animation-duration: 2s;
     animation-name: aparecer;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    padding-right: 50px;
 }
 
-    
-    @keyframes aparecer {
+
+@keyframes aparecer {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 100%;
     }
