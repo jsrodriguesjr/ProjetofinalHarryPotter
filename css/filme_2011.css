@@ -99,13 +99,13 @@ body {
 
 .botoes a,
 .botoes span {
-    background-color: brown;
+    background-color: #DDD;
     color: black;
     text-transform: uppercase;
 }
 
 .botoes a:hover {
-    background-color: brown;
+    background-color: rgba(88, 97, 108, 1);
     color: black;
 }
 /* Footer */
