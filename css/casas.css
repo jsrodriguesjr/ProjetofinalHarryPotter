@@ -81,6 +81,7 @@ nav img {
 .casas_a_origem{
     text-align: center;
     grid-area: origem;
+    margin-top: 150px;
 }
 
 .casas_a_origem h1 {

@@ -55,6 +55,11 @@ nav img {
 
 /* Footer */
 
+
+.cronologia__titulo{
+    margin-top: 150px;
+}
+
 .ordem__filme{
     width: 40%;
     margin: 0 auto;

@@ -55,6 +55,10 @@ nav img {
 
 
 /* Section - Universo Harry Potter / Titulo e resumo */
+.titulo__universo{
+    margin-top: 150px;
+}
+
 #universo__titulo {
     padding: 50px;
     animation-duration: 2s;
