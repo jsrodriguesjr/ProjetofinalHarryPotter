@@ -38,8 +38,13 @@ body {
 /* cabeçalho */
 
 nav{
-    grid-area: nav;
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
 }
+
 
 nav ul {
     display: flex;
@@ -63,9 +68,7 @@ nav a {
 }
 
 nav img {
-    border: solid 1px #C4C4C4;
-    border-radius: 50% ;
-    width: 80px;
+    width: 100px;
 }
 
 

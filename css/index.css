@@ -16,9 +16,6 @@ p {
     font-size: 20px;
 }
 
-section{
-    padding: 10px;
-}
 
 body {
     background: rgb(20, 8, 62);
@@ -29,7 +26,12 @@ body {
 
 nav{
     margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
 }
+
 
 nav ul {
     display: flex;
@@ -53,10 +55,9 @@ nav a {
 }
 
 nav img {
-    border: solid 1px #C4C4C4;
-    border-radius: 50% ;
-    width: 80px;
+    width: 100px;
 }
+
 figcaption{
     text-align: center;
 }
@@ -84,6 +85,7 @@ figcaption{
     width: 1000px;
     height: auto;
     margin: 18px;
+    margin-top: 100px;
 } 
 
 .logo__escrita_harry{
@@ -117,7 +119,7 @@ figcaption{
 
 footer{
     grid-area: footer;
-    margin-top: 100px;
+
     padding: 10px;
 }
 .texto__footer{
@@ -125,11 +127,11 @@ footer{
     font-size: 10px;
     text-align: center;
     font-weight: 100;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin: 0;
 }
-.newsletter{
-    display: block;
-}
+
+
 
 @keyframes aparecer {
     0% {
