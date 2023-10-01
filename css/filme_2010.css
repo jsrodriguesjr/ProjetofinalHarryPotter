@@ -21,11 +21,20 @@ h1 {
 
 /* cabeçalho */
 
+nav{
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
+}
+
+
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width: 100%;
+    width:100%;
     height: 60px;
     margin-bottom: 100px;
 }
@@ -37,16 +46,18 @@ nav li {
     margin-left: 30px;
 }
 
-.links a {
+nav a {
     text-decoration: none;
     color: #C4C4C4;
 }
 
 nav img {
-    display: flex;
-    border: solid 1px #C4C4C4;
-    border-radius: 50%;
-    width: 80px;
+    width: 100px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #C4C4C4;
 }
 
 body {

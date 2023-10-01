@@ -38,8 +38,13 @@ body {
 /* cabeçalho */
 
 nav{
-    grid-area: nav;
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
 }
+
 
 nav ul {
     display: flex;
@@ -63,9 +68,7 @@ nav a {
 }
 
 nav img {
-    border: solid 1px #C4C4C4;
-    border-radius: 50% ;
-    width: 80px;
+    width: 100px;
 }
 
 
@@ -78,6 +81,7 @@ nav img {
 .casas_a_origem{
     text-align: center;
     grid-area: origem;
+    margin-top: 150px;
 }
 
 .casas_a_origem h1 {
@@ -94,6 +98,11 @@ nav img {
 
 .casas_a_origem p{
     padding: 10px;
+}
+
+.casas_a_origem img {
+    border-radius: 30px;
+    border: 1px solid white;
 }
 
 .casas__bloco__interno__grifinoria{
