@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
+    color: #dddd;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -13,8 +13,8 @@ h1 {
 }
 
 body {
-    background-color: #100129;
-
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
 /* cabeçalho */
@@ -29,7 +29,6 @@ nav ul {
     list-style: none;
     width:100%;
     height: 60px;
-    background-color: #474747;
     margin-bottom: 100px;
 }
 
@@ -63,13 +62,6 @@ body {
     background-color: #100129;
 }
 
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
-}
 
 .cronologia{
     padding: 50px;
