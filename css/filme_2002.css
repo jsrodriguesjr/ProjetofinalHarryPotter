@@ -9,6 +9,7 @@
 
 h1 {
     font-family: 'Sofia', cursive;
+    margin-top: 150px;
 }
 
 #grade {
@@ -124,12 +125,11 @@ body {
 
 footer{
     margin-top: 50px;
-    grid-area: footer;
 }
 
 
 footer{
-    grid-area: footer;
+
     margin-top: 100px;
     padding: 10px;
 }
