@@ -96,6 +96,11 @@ nav img {
     padding: 10px;
 }
 
+.casas_a_origem img {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
 .casas__bloco__interno__grifinoria{
     text-align: center;
     grid-area: grifinoria;
