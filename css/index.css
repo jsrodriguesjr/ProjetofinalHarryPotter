@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
-
+    
 }
 
 h1 {
@@ -140,4 +140,87 @@ footer{
     100% {
         opacity: 100%;
     }
+}
+
+/* newsletter */
+.newsletter_description {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newsletter_body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.newsletter_input_cima input {
+    display: inline-block;
+    font-size: 15px;
+    width: 319.4px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.newsletter_input_meio input {
+    display: inline-block;
+    display: flex;
+    font-size: 15px;
+    width: 662px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: grey;
+}
+
+.newsletter_input_baixo textarea {
+    display: inline-block;
+    font-size: 15px;
+    width: 662px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.newsletter_body_button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter_body_button #botao1 {
+    margin-top: 50px;
+}
+
+#botao1 {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
