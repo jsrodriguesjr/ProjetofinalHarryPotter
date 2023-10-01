@@ -140,6 +140,11 @@ nav img {
 
 /* Main - Universo Harry Potter / Parques de Diversões */
 
+main img {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
 .parque__conteudo { 
     margin-top: 50px;
     margin-bottom: 50px;

@@ -49,6 +49,11 @@ body {
     background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
+main img {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
 /* Section - Universo Harry Potter / Titulo e resumo */
 #personagens__titulo {
     padding: 50px;
