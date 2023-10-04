@@ -28,20 +28,29 @@ nav{
 }
 
 
+nav{
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
+}
+
+
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     width:100%;
     height: 60px;
-    margin-bottom: 100px;
+    padding: 0px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 nav li {
-    display: flex;
-    margin-top: 20px;
+    text-align: center;
     flex: 1;
-    margin-left: 30px;
 }
 
 nav a {
@@ -50,6 +59,7 @@ nav a {
 }
 
 nav img {
+    margin-top: 25px;
     width: 100px;
 }
 
