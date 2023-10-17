@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
+    color: #dddd;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
@@ -9,6 +9,7 @@
 
 h1 {
     font-family: 'Sofia', cursive;
+    margin-top: 150px;
 }
 
 #grade {
@@ -21,21 +22,39 @@ h1 {
 
 /* cabeçalho */
 
+nav{
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
+}
+
+
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width: 100%;
+    width:100%;
     height: 60px;
-    background-color: #474747;
-    margin-bottom: 100px;
+    padding: 0px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 nav li {
-    display: flex;
-    margin-top: 20px;
+    text-align: center;
     flex: 1;
-    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+nav img {
+    margin-top: 25px;
+    width: 100px;
 }
 
 .links a {
@@ -43,19 +62,9 @@ nav li {
     color: #C4C4C4;
 }
 
-nav img {
-    display: flex;
-    border: solid 1px #C4C4C4;
-    border-radius: 50%;
-    width: 80px;
-}
-
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
+body {
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
 /* Main - Cronologia Filmes / 2001 */
@@ -103,19 +112,20 @@ nav img {
 
 .botoes a,
 .botoes span {
-    background-color: brown;
+    background-color: #DDD;
     color: black;
     text-transform: uppercase;
 }
 
 .botoes a:hover {
-    background-color: brown;
+    background-color: rgba(88, 97, 108, 1);
     color: black;
 }
 /* Footer */
 
 footer{
-    margin-top: 50px;
+    grid-area: footer;
+
     padding: 10px;
 }
 .texto__footer{
@@ -123,7 +133,8 @@ footer{
     font-size: 10px;
     text-align: center;
     font-weight: 100;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin: 0;
 }
 
 /* Animação */

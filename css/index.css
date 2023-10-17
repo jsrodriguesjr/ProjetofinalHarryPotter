@@ -1,11 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
+    color: #dddd;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sofia', cursive;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
-
+    
 }
 
 h1 {
@@ -16,20 +16,22 @@ p {
     font-size: 20px;
 }
 
-section{
-    padding: 10px;
-}
 
 body {
-    background-color: #100129;
-
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
 }
 
 /* cabeçalho */
 
 nav{
     margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
 }
+
 
 nav ul {
     display: flex;
@@ -37,15 +39,14 @@ nav ul {
     list-style: none;
     width:100%;
     height: 60px;
-    background-color: #474747;
-    margin-bottom: 100px;
+    padding: 0px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 nav li {
-    display: flex;
-    margin-top: 20px;
+    text-align: center;
     flex: 1;
-    margin-left: 30px;
 }
 
 nav a {
@@ -54,17 +55,12 @@ nav a {
 }
 
 nav img {
-    border: solid 1px #C4C4C4;
-    border-radius: 50% ;
-    width: 80px;
+    margin-top: 25px;
+    width: 100px;
 }
 
-.bg__bege{
-    background-color: bisque;
-}
-.bg__vermelho{
-    background-color: brown;
-    padding: 20px;
+figcaption{
+    text-align: center;
 }
 
 .index__conteudo{
@@ -90,6 +86,7 @@ nav img {
     width: 1000px;
     height: auto;
     margin: 18px;
+    margin-top: 150px;
 } 
 
 .logo__escrita_harry{
@@ -100,6 +97,7 @@ nav img {
 .conteudoprincipal__index{
     grid-area: conteudoprincipal__index;
     text-align: center;
+    margin-top: 70px;
 }
  .brasao_de_hogwarts img{
     width: 500px;
@@ -116,21 +114,29 @@ nav img {
 .conteudosecundario__index{
     grid-area: conteudosecundario__index;
     text-align: center;
+    margin-top: 70px;
 }
 /* Footer */
 
 footer{
     grid-area: footer;
-    margin-top: 100px;
-    padding: 10px;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .texto__footer{
     color: grey;
     font-size: 10px;
     text-align: center;
     font-weight: 100;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin: 0;
 }
+
+
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -138,4 +144,87 @@ footer{
     100% {
         opacity: 100%;
     }
+}
+
+/* newsletter */
+.newsletter_description {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newsletter_body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.newsletter_input_cima input {
+    display: inline-block;
+    font-size: 15px;
+    width: 319.4px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.newsletter_input_meio input {
+    display: inline-block;
+    display: flex;
+    font-size: 15px;
+    width: 662px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: grey;
+}
+
+.newsletter_input_baixo textarea {
+    display: inline-block;
+    font-size: 15px;
+    width: 662px;
+    text-transform: uppercase;
+    border: 0px;
+    background: transparent;
+    border: 1px solid grey;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.newsletter_body_button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter_body_button #botao1 {
+    margin-top: 50px;
+}
+
+#botao1 {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
