@@ -37,6 +37,8 @@ nav ul {
     padding: 0px;
 }
 
+
+
 nav li {
     text-align: center;
     flex: 1;
@@ -161,8 +163,7 @@ b {
 .texto__cronologia2{
     text-align: center;
     padding: 50px;
-    color: #C4C4C4;
-
+    color: #441b1b;
 }
 
 #cro {
