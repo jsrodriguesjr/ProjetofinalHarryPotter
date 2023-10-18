@@ -73,7 +73,8 @@ nav img {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
-
+    padding-bottom: 80px;
+    margin: 50px;
 }
 
 h2,
