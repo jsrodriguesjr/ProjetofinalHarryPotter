@@ -12,23 +12,8 @@ h1 {
     margin-top: 150px;
 }
 
-#grade {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:auto;
-    grid-template-areas: 
-    "conteudo";
-}
 
 /* cabeçalho */
-
-nav{
-    margin-bottom: 100px;
-    position: fixed;
-    width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
-}
 
 
 nav ul {
@@ -41,7 +26,6 @@ nav ul {
 }
 nav{
     margin-bottom: 100px;
-    position: fixed;
     width: 100%;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
@@ -86,7 +70,6 @@ body {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
-    grid-area: conteudo;
 }
 
 #calice__conteudo h1 {
@@ -137,8 +120,6 @@ body {
 /* Footer */
 
 footer{
-    grid-area: footer;
-
     padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 20px;
