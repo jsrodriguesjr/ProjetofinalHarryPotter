@@ -15,8 +15,6 @@ h1 {
 
 /* cabeçalho */
 
-<<<<<<< HEAD
-=======
 nav{
     margin-bottom: 100px;
     width: 100%;
@@ -24,7 +22,6 @@ nav{
     background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
 }
 
->>>>>>> 414d5aa62b2e8c0f80d4feda8afadbd70dd4a77d
 
 nav ul {
     display: flex;
