@@ -7,6 +7,145 @@
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     
 }
+
+
+h1 {
+    font-family: 'Sofia', cursive;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background: rgb(20, 8, 62);
+    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
+}
+
+#grade {
+    display: grid;
+    grid-area: casas;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    /* 2 linhas 2 colunas */
+    "nav nav"
+    "origem origem"
+    "grifinoria sonserina"
+    "corvinal lufalufa"
+    "footer footer"
+} 
+
+/* cabeçalho */
+
+nav{
+    margin-bottom: 100px;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
+    grid-area: nav;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width:100%;
+    height: 60px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+nav li {
+    text-align: center;
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+nav img {
+    margin-top: 60px;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+#conteudo__casas {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; 
+}
+
+.casas_a_origem{
+    text-align: center;
+    grid-area: origem;
+}
+
+.casas_a_origem h1 {
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.casas_a_origem h2{
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.casas_a_origem p{
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.casas_a_origem img {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.casas__bloco__interno__grifinoria{
+    text-align: center;
+    grid-area: grifinoria;
+    padding: 40px;
+}
+
+.casas__bloco__interno__sonserina{
+    text-align: center;
+    grid-area: sonserina;
+    padding: 40px;
+}
+
+.casas__bloco__interno__corvinal{
+    text-align: center;
+    grid-area: corvinal;
+    padding: 40px;
+}
+
+.casas__bloco__interno__lufalufa{
+    text-align: center;
+    grid-area: lufalufa;
+    padding: 40px;
+}
+
+.casas__imagem{
+    width: 450px;
+    height: 436px;
+}
+
 /*FOOTER*/
 :root{
     --color-neutral-0: #0e0c0c;
@@ -17,6 +156,7 @@
 
 
 footer{
+    grid-area: footer;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -141,146 +281,11 @@ footer{
 #footer__copyright{
     display: flex;
     justify-content: center;
-    grid-area: footer;
     align-self: center;
     padding-top: 30px;
     font-size: 0.75rem;
 }
 /*FINAL DO FOOTER*/
-
-h1 {
-    font-family: 'Sofia', cursive;
-}
-
-p {
-    font-size: 20px;
-}
-
-body {
-    background: rgb(20, 8, 62);
-    background: linear-gradient(140deg, rgba(20, 8, 62, 1) 22%, rgba(20, 26, 34, 1) 61%, rgba(88, 97, 108, 1) 100%);
-}
-
-#grade {
-    display: grid;
-    grid-area: casas;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    /* 2 linhas 2 colunas */
-    "nav nav"
-    "origem origem"
-    "grifinoria sonserina"
-    "corvinal lufalufa"
-    "footer footer"
-} 
-
-/* cabeçalho */
-
-nav{
-    margin-bottom: 100px;
-    width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
-    grid-area: nav;
-}
-
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    width:100%;
-    height: 60px;
-    align-items: center;
-    padding-left: 0px;
-}
-
-nav li {
-    text-align: center;
-    flex: 1;
-}
-
-nav a {
-    text-decoration: none;
-    color: #C4C4C4;
-}
-
-nav img {
-    margin-top: 60px;
-    width: 100px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: none;
-    color: #9c9c9c;
-}
-
-#conteudo__casas {
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1; 
-}
-
-.casas_a_origem{
-    text-align: center;
-    grid-area: origem;
-    margin-top: 150px;
-}
-
-.casas_a_origem h1 {
-    font-family: 'Sofia', cursive;
-    font-size: 40px;
-    padding: 10px;
-}
-
-.casas_a_origem h2{
-    font-family: 'Sofia', cursive;
-    font-size: 30px;
-    padding: 10px; 
-}
-
-.casas_a_origem p{
-    padding: 10px;
-}
-
-.casas_a_origem img {
-    border-radius: 30px;
-    border: 1px solid white;
-}
-
-.casas__bloco__interno__grifinoria{
-    text-align: center;
-    grid-area: grifinoria;
-    padding: 10px;
-}
-
-.casas__bloco__interno__sonserina{
-    text-align: center;
-    grid-area: sonserina;
-    padding: 10px;
-}
-
-.casas__bloco__interno__corvinal{
-    text-align: center;
-    grid-area: corvinal;
-    padding: 10px;
-}
-
-.casas__bloco__interno__lufalufa{
-    text-align: center;
-    grid-area: lufalufa;
-    padding: 10px;
-}
-
-.casas__imagem{
-    height: 436px;
-    width: 470px;
-}
 
 
 @keyframes aparecer {
