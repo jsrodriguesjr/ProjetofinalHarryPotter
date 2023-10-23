@@ -248,6 +248,7 @@ p {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: 1;
+    margin-top: 100px;
 }
 
 .animal__amasso {
@@ -261,6 +262,7 @@ p {
     font-family: 'Sofia', cursive;
     color: #C4C4C4;
     text-align: center;
+    margin-bottom: 80px;
 }
 .texto__amasso {
     font-size: 20px;
