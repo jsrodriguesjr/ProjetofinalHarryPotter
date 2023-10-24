@@ -19,6 +19,7 @@
     <meta name="description" content="Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling. A
     série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é
     um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de Hogwarts.">
+    <meta name="keywords" content="Harry Potter, Filmes de Harry Potter, Hogwarts, Voldemort, Animais Fantasticos">
     <title>Tudo sobre Harry Potter!</title>
 </head>
 
@@ -99,7 +100,7 @@
         </section>
 
 
-        <div class="newsletter">
+        <form class="newsletter" id="form">
             <div class="newsletter_description">
                 <h1>ASSINE A NOSSA NEWSLETTER!</h1>
                 <p>PARA RECEBER NOTÍCIAS, NOVIDADES E CONTEÚDO SOBRE NOSSO SITE E O UNIVERSO DE HARRY POTTER.</p>
@@ -107,11 +108,17 @@
             <div class="newsletter_body">
                 <div class="newsletter_inputs">
                     <div class="newsletter_input_cima">
-                        <input type="text" placeholder="Name">
-                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Name" class="inputs required" oninput="nameValidate()">
+                        <span class="span-required">O nome precisa ter mais que 3 caracteres</span>
                     </div>
+                    <div class="newsletter_input_cima">
+                        <input type="text" placeholder="Email" class="inputs required" oninput="emailValidate()">
+                        <span class="span-required">Preencha corretamente o e-mail</span>
+                    </div>
+
                     <div class="newsletter_input_meio">
-                        <input type="date" placeholder="Idade">
+                        <input type="date" placeholder="Idade" class="inputs required">
+                        <span class="span-required">Adicione uma idade!</span>
                     </div>
                     <div class="newsletter_input_baixo">
                         <textarea name="Mensagem" id="" cols="100" rows="10"
@@ -122,7 +129,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
         </div>
     </main>
     <footer>  
