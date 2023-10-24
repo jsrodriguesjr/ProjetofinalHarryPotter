@@ -39,7 +39,7 @@ body {
 /* cabeçalho */
 
 nav{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     width: 100%;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.938813025210084) 0%, rgba(0,0,0,0) 100%);
