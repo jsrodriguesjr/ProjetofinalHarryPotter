@@ -40,3 +40,14 @@ function emailValidate(){
     }  
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const campo1 = document.getElementById("namecollect");
+    const campo2 = document.getElementById("emailcollect");
+    const meuBotao = document.getElementById("botao1");
+  
+    meuBotao.addEventListener("click", function () {
+      if (campo1.value.length >= 3 && campo2.value.length >= 3) {
+        alert("Obrigado por assinar nossa newsletter!");
+      }
+    });
+  });
